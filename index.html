@@ -1,0 +1,96 @@
+
+### index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Webcam Feed Viewer</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>IP Webcam Feed Viewer</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>A sophisticated application leveraging OpenCV, Tkinter, and MySQL to display live feeds from up to four IP webcams. This tool is ideal for security monitoring, home surveillance, and applications requiring simultaneous multi-camera feeds and secure data handling.</p>
+        </section>
+        <section>
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Multi-Camera Display:</strong> View live feeds from four IP webcams simultaneously.</li>
+                <li><strong>Recording & Export:</strong> Seamlessly record feeds and export them as MP4 files.</li>
+                <li><strong>Secure Login System:</strong> Robust credential storage and verification for enhanced user privacy and data security.</li>
+                <li><strong>User-Friendly Interface:</strong> Built with Tkinter for an intuitive and responsive user experience.</li>
+                <li><strong>Database Integration:</strong> Utilizes MySQL for reliable data management.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Installation</h2>
+            <ol>
+                <li>Clone the repository:
+                    <pre><code>git clone https://github.com/<username>/IP-Webcam-Feed-Viewer.git</code></pre>
+                    <pre><code>cd IP-Webcam-Feed-Viewer</code></pre>
+                </li>
+                <li>Install the required dependencies:
+                    <pre><code>pip install -r requirements.txt</code></pre>
+                </li>
+                <li>Set up the MySQL database:
+                    <ul>
+                        <li>Ensure MySQL is installed and running.</li>
+                        <li>Create a database and configure the connection settings in the application. You can find the database configuration file in the project directory.</li>
+                    </ul>
+                </li>
+                <li>Run the application:
+                    <pre><code>python app.py</code></pre>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Usage</h2>
+            <ul>
+                <li><strong>Login:</strong> Use your credentials to log in securely.</li>
+                <li><strong>View Feeds:</strong> Monitor live feeds from up to four IP webcams.</li>
+                <li><strong>Record Feeds:</strong> Start and stop recording as needed.</li>
+                <li><strong>Export Recordings:</strong> Export recorded feeds to MP4 files for easy playback and sharing.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>File Structure</h2>
+            <pre><code>
+IP-Webcam-Feed-Viewer/
+├── app.py               # Main application file
+├── requirements.txt     # Python dependencies
+├── config/
+│   ├── db_config.py     # Database configuration
+├── models/
+│   ├── user_model.py    # User model for authentication
+├── static/
+│   ├── styles.css       # CSS for styling (if applicable)
+├── templates/
+│   ├── index.html       # HTML templates for the UI
+└── README.md            # Project documentation
+            </code></pre>
+        </section>
+        <section>
+            <h2>Contributing</h2>
+            <p>Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes. Before contributing, please make sure to follow the contribution guidelines outlined in <code>CONTRIBUTING.md</code>.</p>
+        </section>
+        <section>
+            <h2>License</h2>
+            <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>For any inquiries or support, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 IP Webcam Feed Viewer Project</p>
+    </footer>
+</body>
+</html>

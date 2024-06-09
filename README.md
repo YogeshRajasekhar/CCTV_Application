@@ -20,5 +20,5 @@ A sophisticated application leveraging OpenCV, Tkinter, and MySQL to display liv
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<username>/IP-Webcam-Feed-Viewer.git
-   cd IP-Webcam-Feed-Viewer
+   git clone https://github.com/YogeshRajasekhar/CCTV_Application.git
+   cd CCTV_Application
